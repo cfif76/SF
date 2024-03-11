@@ -54,7 +54,7 @@ def score_game(binar_predict) -> int:
         count_ls.append(binar_predict(number))
 
     score = int(np.mean(count_ls))
-    print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
+    print(f"Ваш алгоритм угадывает число в среднем за: {score} попыток")
     return score
 
 
